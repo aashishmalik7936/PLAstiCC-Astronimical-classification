@@ -29,6 +29,9 @@ I generated around 121 new useful features.
 
 I trained a xgboost model & a lgbm model on 12 fold CV and took the average for the best submission.
 
+For test set, I did the prediction in chunks because the data was very huge and showing out of memory when I was loading the data 
+altogether.
+
             ################################### What more could have been done #######################################
 
 I was more dependent on boosting models and totally ignored linear models which could have been helpfull in belnding as they create more

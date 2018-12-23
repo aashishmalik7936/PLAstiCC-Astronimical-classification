@@ -1,14 +1,14 @@
 This was a machine learning challenge hosted by kaggle in which I had to classify between different supernovas based on the 
 provided information. You can follow this link for more information: https://www.kaggle.com/c/PLAsTiCC-2018
 
-I finished on 113 (top 11%) rank out of 1094 participants worldwide. 
+I finished on 113 (top 11%) rank out of 1094 participants worldwide.
 
-##################################################################### Challenge ###########################################################
+                   ############################################ Challenge #######################################
 
 The challenge was that the training data was very less and has only 7848 rows so, it was very easy to overfit the data. Feature selection 
 was key in this competition.
 
-################################################################### Approach ##############################################################
+                 ######################################## Approach #################################################
 
 I did some EDA to become familiar with the featurs that are provided and tried to find some hidden information by plotting some
 bubble, bar and line plots.
@@ -29,7 +29,7 @@ I generated around 121 new useful features.
 
 I trained a xgboost model & a lgbm model on 12 fold CV and took the average for the best submission.
 
-################################################## What more could have been done #########################################################
+            ################################### What more could have been done #######################################
 
 I was more dependent on boosting models and totally ignored linear models which could have been helpfull in belnding as they create more
 diversity in the model.

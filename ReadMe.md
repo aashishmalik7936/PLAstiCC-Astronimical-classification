@@ -39,4 +39,4 @@ diversity in the model.
 
 I could have use out of fold predictions to train a 2nd level model or meta model in stacking.
 
-
+A decent nn model could have been made too for blending. I tried to make a good nn model but due to lack to time I couldn't.

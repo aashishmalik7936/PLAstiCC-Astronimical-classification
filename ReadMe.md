@@ -13,11 +13,14 @@ was key in this competition.
 I did some EDA to become familiar with the featurs that are provided and tried to find some hidden information by plotting some
 bubble, bar and line plots.
 
+Tried to find outliers by using **mean +- 3 standard deviation** but couldn't find any.
+
 Then, I did some preprocessing like filling the null values, transforming categorical columns using pandas dummies. Since I was training
 the data on lightgbm model so, I didn't required to do feature scaling.
 
-Now, make full use of lightgbm I used scikit optimzation algorithm to get the best set of parameters and trained my model witk 5 fold cv 
-on them for the best possible accuracy I can get.
+Now, make full use of lightgbm I used scikit optimzation algorithm to get the best set of parameters and trained my model with **stratified 5 fold CV** on them for the best possible accuracy I can get. 
+
+I used stratified CV to ensure that each fold has the same ratio of target classes.
 
 After this, I plotted the features importance graph to know the features that were very important for my lgbm model. I started feature 
 engineering with most important features.
